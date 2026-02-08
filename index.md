@@ -28,7 +28,7 @@ permalink: /
 
 ### Vue
 
-- [Alert, a single file Vue component](articles/alert-component)
+- [Alert, a single file Vue component](articles/alert)
 - [Another component using Alert](articles/success)
 - [Vue component with named slot](articles/modal-component)
 
