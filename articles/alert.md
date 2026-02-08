@@ -9,8 +9,7 @@ In this case using bootstrap 5 for the CSS and font awesome icons version 4.
             <div class="flex-grow-1">
                 <i class="fa me-2" :class="icon"></i>
                 <div class="d-inline-block">
-                    <!--begin::Content-->
-                    <span class="text-gray-900">{{ content }}</span>
+                    <span class="text-gray-900">{{ alertContent }}</span>
                 </div>
             </div>
             <div class="text-end">
@@ -27,7 +26,7 @@ import { ref } from 'vue';
 export default {
     name: 'Alert',
     props: {
-        content: {
+        alertContent: {
             type: String,
             required: true,
         },
