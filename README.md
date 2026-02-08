@@ -2,4 +2,4 @@
 
 ## Articles
 
-[A simple feature flag package for Laravel]('/articles/features')
+[A simple feature flag package for Laravel](articles/features)
