@@ -103,8 +103,6 @@ if (! function_exists('our_activity')) {
 }
 ```
 
-Note that its the additional scope on our version of the model which is used to provide the fluent method here.
-
 ```php
 activity()
    ->performedOn($anEloquentModel)
@@ -113,3 +111,5 @@ activity()
    ->withProperties(['customProperty' => 'customValue'])
    ->log('Look, I logged something');
 ```
+
+Note that its added public function on the ActivityLogger class which takes a model as its input which is chained in this fluent api here and not the model scope which takes a Builder query and the related model as its parameters.

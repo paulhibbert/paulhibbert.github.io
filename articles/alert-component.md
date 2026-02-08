@@ -1,6 +1,6 @@
 # A dismissable Alert component using the Composition API
 
-In this case using bootstrap (5 if I remember correctly) for the CSS and font awesome icons (version 4 I believe).
+In this case using bootstrap 5 for the CSS and font awesome icons version 4.
 
 ```JS
 <template>
@@ -88,3 +88,5 @@ export default {
     }
 </style>
 ```
+
+There is an example use of this component in another [component](articles/success).
