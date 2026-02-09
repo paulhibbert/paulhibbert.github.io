@@ -10,6 +10,8 @@ permalink: /
 
 ## Articles & Code Snippets
 
+Most of the code I have written over the last ten years is in private repositories and I find it actually upsetting that many of my best moments and potentially useful learnings are forever hidden from me. However I have cobbled together some snippets and observations of a generic nature and plan to update with whatever code I can write in the open where it strikes me as interesting or I want to show knowledge.
+
 ### Laravel
 
 - [A simple feature flag package for Laravel](articles/features)
@@ -28,9 +30,14 @@ permalink: /
 
 ### Vue
 
+- [My journey with Vue](articles/my-journey-with-vue)
 - [Alert, a single file Vue component](articles/alert)
 - [Another component using Alert](articles/success)
 - [Vue component with named slot](articles/modal-component)
+
+### SQL
+
+- [Rollup](articles/rollup)
 
 ## Repositories
 
