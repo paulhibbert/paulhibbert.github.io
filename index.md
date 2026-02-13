@@ -58,3 +58,9 @@ There are so many features added to the framework by the core team and the commu
 - [Unique Queued Listeners](laravel/queued-listeners)
 - [HasMany method for Collections](laravel/has-many-collections)
 - [Clamp added to InteractsWithData trait](laravel/request-clamp)
+
+### v12.47.0
+
+Taylor added vector support in the database query builder for Postgres, as part of the work for the, at that time, upcoming AI SDK which was released at the beginning of February 2026.
+
+- [`Cache::withoutOverlapping()`](laravel/cache-atomic)
