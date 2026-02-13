@@ -37,8 +37,24 @@ Most of the code I have written over the last ten years is in private repositori
 
 ### SQL
 
+However convenient ORMs are, in the end its all SQL underneath, and I actually think SQL is my favourite language. I don't have many snippets available unfortunately. One absolutely essential feature of Laravel's database query interface that is also available for Eloquent is `->toRawSQl()`, sometimes you really need to see the compiled query to validate what's being sent to the database server, or take it as the basis for something more complex where the ORM obscures what the functionality is.
+
 - [Rollup](articles/rollup)
 
 ## Repositories
 
 [GitHub](https://github.com/paulhibbert?tab=repositories&q=&type=public)
+
+## Interesting Laravel Changes
+
+There are so many features added to the framework by the core team and the community that it is definitely hard to keep track. I always take a close look at each framework release, but I have not always made a note about the additions that strike me as interesting. Let's see if I can be more consistent in future.
+
+### v12.51.0
+
+- [whenFails and whenPasses for Validator](laravel/validator)
+
+### v12.50.0
+
+- [Unique Queued Listeners](laravel/queued-listeners)
+- [HasMany method for Collections](laravel/has-many-collections)
+- [Clamp added to InteractsWithData trait](laravel/request-clamp)
