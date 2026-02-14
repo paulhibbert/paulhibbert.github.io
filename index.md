@@ -8,6 +8,14 @@ permalink: /
 
 [On Render](https://paulhibbert.onrender.com/)
 
+## Plan to look into..
+
+- [Mago toolchain](https://github.com/carthage-software/mago)
+- [Solo local dev](https://github.com/soloterm/solo)
+- [Paid for Claude setup & tutorials from Aaron Francis](https://faster.dev)
+- Http pooling/batching in Laravel
+- Macroable trait examples
+
 ## Articles & Code Snippets
 
 Most of the code I have written over the last ten years is in private repositories and I find it actually upsetting that many of my best moments and potentially useful learnings are forever hidden from me. However I have cobbled together some snippets and observations of a generic nature and plan to update with whatever code I can write in the open where it strikes me as interesting or I want to show knowledge.
@@ -41,26 +49,12 @@ However convenient ORMs are, in the end its all SQL underneath, and I actually t
 
 - [Rollup](articles/rollup)
 
-## Repositories
+## My Github Repositories
 
 [GitHub](https://github.com/paulhibbert?tab=repositories&q=&type=public)
 
-## Interesting Laravel Changes
+## Interesting Laravel Framework pull requests
 
 There are so many features added to the framework by the core team and the community that it is definitely hard to keep track. I always take a close look at each framework release, but I have not always made a note about the additions that strike me as interesting. Let's see if I can be more consistent in future.
 
-### v12.51.0
-
-- [whenFails and whenPasses for Validator](laravel/validator)
-
-### v12.50.0
-
-- [Unique Queued Listeners](laravel/queued-listeners)
-- [HasMany method for Collections](laravel/has-many-collections)
-- [Clamp added to InteractsWithData trait](laravel/request-clamp)
-
-### v12.47.0
-
-Taylor added vector support in the database query builder for Postgres, as part of the work for the, at that time, upcoming AI SDK which was released at the beginning of February 2026.
-
-- [`Cache::withoutOverlapping()`](laravel/cache-atomic)
+### [Version 12](laravel/v12)
