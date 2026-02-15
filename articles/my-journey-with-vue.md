@@ -10,7 +10,7 @@ These are crude and simple toy projects, but still give me some pleasure in that
 
 This code from 2018 simply mounts Vue on an element on the page, declares some data and methods. As a learning too its great. In the console its possible to call `vm.clearInput()` for example to clear the data and the elements which are bound reactively to the data (no importing ref in those days).
 
-```JS
+```javascript
 var vm = new Vue({
     el: '#app',
     data: {
@@ -53,7 +53,7 @@ var vm = new Vue({
 
 A couple of bare functions are declared (so these can also be used in the console), one to evaluate the text expressions like "sqrt(78)" or "6+(3/7)" and so on, and one to display the result.
 
-```JS
+```javascript
 function displayResult() {
     try{
         temp = evaluate(vm.inputDisplay);
@@ -106,7 +106,7 @@ The code snippet, though now completely divorced from the original context, show
 
 I do remember that there was a very rudimentary user interface design and most of the decisions about the UX (such as adding the use all values from one side, adding a reset button and so on) were made by me as I built it.
 
-```JS
+```javascript
 <script>
 module.exports =  {
     data:function() {
@@ -236,7 +236,7 @@ Fast forward to 2021 and in a completely different commercial environment there 
 
 Suffice to say that the page loads `vue.v3.2.37.min.js` and `quasar.v2.7.7.umd.min.js` as well as the quasar css. There is as usual a div on the page with the id 'q-app' where Vue is mounted. The vue instance is created with `createApp` and then Quasar is added with `app.use` before the whole thing is mounted on the div.
 
-```JS
+```javascript
 const app = Vue.createApp({
 setup () {
     return {
@@ -353,7 +353,7 @@ While precognition is being used so business rule validation can be applied in o
 
 In other more complex forms its simple to use `input.validity.valid` to check the input conforms to ALL native validation constraints in one simple check, though of course inspecting all of the possible [invalid states](https://developer.mozilla.org/en-US/docs/Web/API/ValidityState#instance_properties) and returning appropriate error messages locally adds a layer of complexity that is almost certainly not justified given the desired goal of doing validation in one place (the backend).
 
-```JS
+```javascript
 <template>
     <div class="container-sm mt-5">
         <div class="card p-10">

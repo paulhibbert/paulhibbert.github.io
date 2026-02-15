@@ -2,7 +2,7 @@
 
 In this case using bootstrap 5 for the CSS and font awesome icons version 4.
 
-```JS
+```javascript
 <template>
     <transition name="fade" mode="in-out">
         <div v-if="isVisible" class="alert d-flex align-items-center p-3 py-4 mb-5" :class="[alertClass]">

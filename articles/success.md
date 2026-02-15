@@ -6,7 +6,7 @@ Here is another way.
 
 Route the user to a page with this sucess-redirect component on it to show the feedback and take the user in a friendly way to whereever it is they need to go.
 
-```JS
+```javascript
 <template>
         <Alert ref="alert" :content="this.successMessage" :alert-type="success" />
         <div>{{ $t('You will be redirected shortly.') }}</div>

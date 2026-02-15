@@ -2,7 +2,7 @@
 
 sometimes the composition API is over the top for a simple component. This component has a named slot for the content of the modal.
 
-```JS
+```javascript
 <template>
     <div class="modal fade" :class="{'show d-block': isOpen}" tabindex="-1">
         <div class="modal-dialog">
@@ -62,7 +62,7 @@ export default {
 
 Example use:
 
-```JS
+```javascript
 <ModalComponent :isOpen="isModalOpened" @modal-close="closeModal" name="validation-modal" title="Validation Error">
     <template #body>
         <span>{{ $t("Some validation error in a modal for some reason") }}</span>
