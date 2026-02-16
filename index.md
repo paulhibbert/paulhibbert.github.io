@@ -14,6 +14,8 @@ Most of the code I have written over the last ten years is in private repositori
 
 ### Laravel
 
+Currently working on turning my approach to settings for Laravel into a package.
+
 - [A simple feature flag package for Laravel](articles/features)
 - [Simple FormRequest example](articles/accepted-if-rule)
 - [Using the authorize method in FormRequest](articles/merging)
@@ -50,11 +52,3 @@ However convenient ORMs are, in the end its all SQL underneath, and I actually t
 There are so many features added to the framework by the core team and the community that it is definitely hard to keep track. I always take a close look at each framework release, but I have not always made a note about the additions that strike me as interesting. Let's see if I can be more consistent in future.
 
 ### [Version 12](laravel/v12)
-
-## Todo
-
-- [Mago toolchain](https://github.com/carthage-software/mago)
-- [Solo local dev](https://github.com/soloterm/solo)
-- [Paid for Claude setup & tutorials from Aaron Francis](https://faster.dev)
-- Http pooling/batching examples in Laravel
-- Macroable trait examples
