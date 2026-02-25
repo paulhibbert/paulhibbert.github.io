@@ -8,12 +8,12 @@ permalink: /
 
 [On Render](https://paulhibbert.onrender.com/)
 
-## Other static pages on Render.com
+## Other static pages on Render.com, just for fun
 
-[Generate a passphrase](https://passphrase.onrender.com/)
-[Very basic calculator](https://vue-calc.onrender.com/)
-[Generate random string from tiles](https://simplerandomizer.onrender.com)
-[Herdable bees](https://bees.onrender.com/) hint: resize the window
+- [Generate a passphrase](https://passphrase.onrender.com/)
+- [Very basic calculator](https://vue-calc.onrender.com/)
+- [Generate random string from tiles](https://simplerandomizer.onrender.com)
+- [Herdable bees](https://bees.onrender.com/) hint: resize the window
 
 ## Articles & Code Snippets
 
