@@ -8,15 +8,23 @@ permalink: /
 
 [On Render](https://paulhibbert.onrender.com/)
 
+## Other static pages on Render.com
+
+[Generate a passphrase](https://passphrase.onrender.com/)
+[Very basic calculator](https://vue-calc.onrender.com/)
+[Generate random string from tiles](https://simplerandomizer.onrender.com)
+[Herdable bees](https://bees.onrender.com/) hint: resize the window
+
 ## Articles & Code Snippets
 
 Most of the code I have written over the last ten years is in private repositories and I find it actually upsetting that many of my best moments and potentially useful learnings are forever hidden from me. However I have cobbled together some snippets and observations of a generic nature and plan to update with whatever code I can write in the open where it strikes me as interesting or I want to show knowledge.
 
 ### Laravel
 
-Currently working on turning my approach to settings for Laravel into a package.
+Currently working on turning my approach to settings for Laravel into a package. Not quite finished but link below.
 
 - [A simple feature flag package for Laravel](articles/features)
+- [A settings package for Laravel](https://github.com/paulhibbert/settings/blob/main/README.md)
 - [Simple FormRequest example](articles/accepted-if-rule)
 - [Using the authorize method in FormRequest](articles/merging)
 - [Extending a Spatie composer package](articles/activity-log)
